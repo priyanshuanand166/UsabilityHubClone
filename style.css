@@ -74,4 +74,6 @@ a
 .top-banner
 {
     background-color: #4fb3d4;
+    background-image: url('./assets/asset\ 32.png');
+    background-size: 400px;
 }
