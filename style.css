@@ -176,6 +176,7 @@ ul
 {
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
 
 .company-logo img
@@ -269,14 +270,14 @@ header
     margin-bottom: 40px;
 }
 
-/* .features-heading-text {
-    margin-bottom: 20px;
-} */
-
-.features-header h2
-{
+.features-heading-text {
     margin-bottom: 20px;
 }
+
+/* .features-header h2
+{
+    margin-bottom: 20px;
+} */
 
 .features-area
 {
@@ -295,7 +296,7 @@ header
     /* align-items: center; */
 }
 
-.pic
+.features-card img
 {
     width: 60px;
 }
@@ -354,7 +355,7 @@ header
 {
     width: 23%;
     position: relative;
-    height: 400px;
+    min-height: 400px;
     background: black;
     background: linear-gradient(rgb(0,0,0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
     background-size: cover;
