@@ -126,6 +126,7 @@
 
    .features-card
    {
+      /* flex-direction: column; */
       min-width: 100%;
       gap: 0px;
       /* min-width: 50%; */
@@ -133,7 +134,7 @@
 
    .examples-card
    {
-      width: calc(100% - ;
+      width: 100%;
       gap: 0px;
    }
 
