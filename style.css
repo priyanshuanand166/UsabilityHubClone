@@ -58,6 +58,30 @@ ul
     list-style: none;
 }
 
+/* DARK MODE */
+.dark
+{
+    --primary-text-color: #fff;
+    --secondary-text-color: #ddd;
+    background-color:#111;
+}
+
+.dark #logo
+{
+    filter: invert(100%);
+}
+
+.dark .cta-section
+{
+    background-color:#111;
+    padding: 0px;
+}
+
+.dark .subfooter
+{
+    background-color: #111;
+}
+
 /* utility-class */
 .small-bold-text
 {
