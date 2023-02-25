@@ -1,6 +1,4 @@
-*,
-*:before,
-*:after
+*, *:before, *:after
 {
     padding: 0;
     margin: 0;
@@ -47,6 +45,31 @@ body
     right: -80px;
     bottom: -95px;
     /* z-index: 1; */
+}
+
+.secondary-button
+{
+    border: 0.5px solid #577592;
+    /* background-color: var(--accent-color); */
+    border-radius: 6px;
+    font-weight:700;
+    color: #183b56 !important;
+    padding: 12px 24px;
+    /* box-shadow: 0 0 2px var(--secondary-text-color); */
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover
+{
+    border-color: #2294ed;
+    color: #2294ed !important;
+    /* background-color:var(--accent-color-dark); */
+    /* box-shadow: 0 0 2px var(--accent-color) ; */
+}
+
+.get-started-button
+{
+    margin-top: 20px;
 }
 
 form
@@ -263,7 +286,6 @@ a
         margin-top: 4px;
         font-size: 10px;
         font-weight: 100;
-    /* cursor: pointer; */
     }
 
     form button
