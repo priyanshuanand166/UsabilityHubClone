@@ -216,6 +216,11 @@ a
 
 @media screen and (max-width: 600px)
 {
+    .header
+    {
+        width: 100vw;
+    }
+
     .background
     {
         width: 100vw;
@@ -232,5 +237,9 @@ a
         display: none;
     }
 
-    
+    form
+    {
+        height: 70vh;
+        width: 90vw;
+    }
 }
