@@ -49,6 +49,10 @@ body
 
 .secondary-button
 {
+    display: flex;
+    align-items: center;
+    left: 20%;
+    position: relative;
     border: 0.5px solid #577592;
     /* background-color: var(--accent-color); */
     border-radius: 6px;
