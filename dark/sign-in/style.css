@@ -183,3 +183,178 @@ a span:hover
     padding: 20px;
     /* z-index: 1; */
 }
+
+@media screen and (max-width:600px) 
+{
+    .header
+    {
+        width: 100vw;
+    }
+    .background
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .background .shape
+    {
+        display: none;
+        /* height: 5vh; */
+        /* width: 5vw; */
+        /* position: absolute; */
+        /* border-radius: 50%; */
+    /* z-index: 1; */
+    }   
+    
+    form
+    {
+        height: 80vh;
+        width: 90vw;
+        padding: 40px 25px;
+        letter-spacing: 0.3px;
+    }
+
+    a span
+    {
+        overflow: hidden;
+        right: -60px;
+        font-size: 14px;    
+    }
+
+    form h3 span
+{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #e5e5e5;
+}
+
+label
+{
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input
+{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 15px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+button
+{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #2294ed;
+    color: white !important;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0.5px solid #577592;
+    transition: 0.2s ease-out;
+    box-shadow: 0 0 2px #577592;
+}
+
+button:hover
+{
+    background-color:#1d69a3;
+}
+
+form h3
+{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+}
+
+@media screen and (max-width: 320px)
+ {
+    a span
+    {
+        right: -10px;
+        font-size: 8px;
+    }
+
+    form
+    {
+        height: 45vh ;
+        width: 80vw;
+        padding: 15px 10px;
+        letter-spacing: 0.1px;
+    }
+
+    form h3 span
+{
+    display: block;
+    font-size: 10px;
+    font-weight: 100;
+    color: #e5e5e5;
+}
+
+label
+{
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+input
+{
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+::placeholder
+{
+    color: #e5e5e5;
+}
+
+button
+{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #2294ed;
+    color: white !important;
+    padding: 8px 14px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0.5px solid #577592;
+    transition: 0.2s ease-out;
+    box-shadow: 0 0 2px #577592;
+}
+
+button:hover
+{
+    background-color:#1d69a3;
+}
+
+form h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+}
