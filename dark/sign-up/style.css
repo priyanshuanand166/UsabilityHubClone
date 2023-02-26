@@ -211,6 +211,9 @@ form button:hover
     border-radius: 0px !important;
     font-size: 20px !important;
     padding: 5px;
+    position: relative;
+    top: 15px;
+    right: -1200px;
   }
   
 .btn:hover{
