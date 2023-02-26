@@ -162,6 +162,7 @@ form button:hover
     /* display: flex; */
     margin-right: 20px;
 }
+
 .header img
 {
     width: 170px;
@@ -212,23 +213,20 @@ form button:hover
 } */
 
 .btn{
-    color: white !important;
-    font-weight: 600 !important;
-    border: 1px solid white !important;
-    background: transparent !important;
-    border-radius: 0px !important;
+    color: #183b56 !important;
+    font-weight: 700 !important;
+    border: 0.5px solid #577592 !important;
+    /* background: transparent !important; */
+    border-radius: 6px !important;
     font-size: 20px !important;
-    padding: 5px;
-    /* gap: 50px; */
-    /* display: flex; */
-    /* justify-content:flex-end ; */
-    /* margin-top: 0.7em; */
-    /* margin-right: 2em; */
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
   }
   
 .btn:hover{
-    color: black !important;
-    background: #fff !important;
+    border-color: #2294ed;
+    color: #2294ed !important;
+    /* background: #fff !important; */
     cursor: pointer;
   }
 
