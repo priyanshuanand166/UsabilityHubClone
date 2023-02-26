@@ -234,11 +234,11 @@ a
         /* justify-content: space-between; */
     }
 
-    .btn{
+    /* .btn{
         color: #183b56 !important;
         font-weight: 700 !important;
         border: 0.5px solid #577592 !important;
-        /* background: transparent !important; */
+        background: transparent !important;
         border-radius: 0px !important;
         font-size: 20px !important;
         padding: 5px;
@@ -248,9 +248,27 @@ a
     .btn:hover{
         border-color: #2294ed;
         color: #2294ed !important;
-        /* background: #fff !important; */
+        background: #fff !important;
         cursor: pointer;
-      }
+      } */
+
+      .secondary-button
+{
+    border: 0.5px solid #577592;
+    background-color: white;
+    border-radius: 6px;
+    font-weight:700;
+    color: #183b56 !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    margin-right: 20px;
+}
+
+.secondary-button:hover
+{
+    border-color: #2294ed;
+    color: #2294ed !important;
+}
         
     form
     {
@@ -345,11 +363,11 @@ a
         width: 100vw;
     }
 
-    .btn{
+    /* .btn{
         color: #183b56 !important;
         font-weight: 700 !important;
         border: 0.5px solid #577592 !important;
-        /* background: transparent !important; */
+        background: transparent !important;
         border-radius: 0px !important;
         font-size: 20px !important;
         padding: 5px;
@@ -359,10 +377,27 @@ a
     .btn:hover{
         border-color: #2294ed;
         color: #2294ed !important;
-        /* background: #fff !important; */
+        background: #fff !important;
         cursor: pointer;
-      }
-    
+      } */
+      
+      .secondary-button
+{
+    border: 0.5px solid #577592;
+    background-color: white;
+    border-radius: 6px;
+    font-weight:700;
+    color: #183b56 !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    margin-right: 20px;
+}
+
+.secondary-button:hover
+{
+    border-color: #2294ed;
+    color: #2294ed !important;
+}
     
     form
     {
