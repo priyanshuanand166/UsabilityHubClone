@@ -326,6 +326,12 @@ a
     {
         background-color:#1d69a3;
     }
+
+    .btn
+    {
+        width: 100px;
+        height: 80px;
+    }
 }
 
 @media screen and (max-width : 320px)
@@ -419,5 +425,11 @@ a
     form button:hover
     {
         background-color:#1d69a3;
+    }
+
+    .btn
+    {
+        width: 100px;
+        height: 80px;
     }
 }
