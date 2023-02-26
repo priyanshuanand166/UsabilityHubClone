@@ -164,22 +164,22 @@ form button:hover
     /* z-index: 1; */
 }
 
-.secondary-button
+/* .secondary-button
 {
     display: flex;
     align-items: center;
-    /* margin-top: 10px; */
-    /* margin-left: auto; */
-    /* margin-right: 20px; */
-    /* left: 20%; */
-    /* position: relative; */
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+    left: 20%;
+    position: relative;
     border: 0.5px solid #577592;
-    /* background-color: var(--accent-color); */
+    background-color: var(--accent-color);
     border-radius: 6px;
     font-weight:700;
     color: #183b56 !important;
     padding: 12px 24px;
-    /* box-shadow: 0 0 2px var(--secondary-text-color); */
+    box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
 }
 
@@ -187,8 +187,8 @@ form button:hover
 {
     border-color: #2294ed;
     color: #2294ed !important;
-    /* background-color:var(--accent-color-dark); */
-    /* box-shadow: 0 0 2px var(--accent-color) ; */
+    background-color:var(--accent-color-dark);
+    box-shadow: 0 0 2px var(--accent-color) ;
 }
 
 .get-started-button
@@ -197,11 +197,27 @@ form button:hover
     margin-block: 10px;
     margin-left: auto;
     margin-right: 20px;
-    /* align-items: center; */
-    /* justify-content: flex-end; */
-    /* margin-top: 10px; */
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
     background-color: white;
-}
+} */
+
+.btn{
+    color: white !important;
+    font-weight: 600 !important;
+    border: 1px solid white !important;
+    background: transparent !important;
+    border-radius: 0px !important;
+    font-size: 20px !important;
+    padding: 5px;
+  }
+  
+.btn:hover{
+    color: black !important;
+    background: #fff !important;
+    cursor: pointer;
+  }
 
 a
 {
