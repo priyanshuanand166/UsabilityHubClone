@@ -22,7 +22,7 @@ body{
   padding: 5px;
 }
 
-.btn{
+button{
   color: white !important;
   font-weight: 600 !important;
   border: 1px solid white !important;
@@ -30,7 +30,7 @@ body{
   border-radius: 0px !important;
 }
 
-.btn:hover{
+button:hover{
   color: black !important;
   background: #fff !important;
 }
